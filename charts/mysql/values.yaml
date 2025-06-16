@@ -5,7 +5,7 @@ global:
       app: mysql
       environment: prod
       namespace: demo-prod
-  replicaCount: 1
+  replicaCount: 5
   containers:
    -  name: mysql
       image: mysql
