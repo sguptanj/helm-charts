@@ -4,6 +4,7 @@ global:
     appLabel:
       app: mysql
       environment: prod
+      namespace: demo-dev
   replicaCount: 1
   containers:
    -  name: mysql
